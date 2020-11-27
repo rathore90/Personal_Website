@@ -6,13 +6,13 @@
     text-decoration: none;
 }
 
-.max-width{
+.max-width-custom{
     padding: 0 80px;
     margin: auto;
 }
 
 /* navbar styling */
-.navbar{
+.navbar-custom{
     position: fixed;
     width: 100%;
     padding: 30px 0;
@@ -21,36 +21,36 @@
     transition: all.3s ease;
 }
 
-.navbar.sticky{
+.navbar-custom.sticky{
     padding: 15px 0;
     background: crimson;
 }
 
-.navbar .max-width{
+.navbar-custom .max-width-custom{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo a{
+.navbar-custom .logo a{
     color: #fff;
     font-size: 35px;
     font-weight: 600;
 }
-.navbar .logo a span{
+.navbar-custom .logo a span{
     color: crimson;
     transition: all 0.3s ease;
 }
-.navbar.sticky .logo a span{
+.navbar-custom.sticky .logo a span{
     color: #fff;
 }
-.navbar .logo a span{
+.navbar-custom .logo a span{
     color: crimson;
 }
-.navbar .menu li{
+.navbar-custom .menu li{
     list-style: none;
     display: inline-block;
 }
-.navbar .menu li a{
+.navbar-custom .menu li a{
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -58,11 +58,11 @@
     transition: color 0.3s ease;
 }
 
-.navbar .menu li a:hover{
+.navbar-custom .menu li a:hover{
     color: crimson;
 }
 
-.navbar.sticky .menu li a:hover{
+.navbar-custom.sticky .menu li a:hover{
     color: #fff;
 }
 
@@ -77,8 +77,29 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.home .max-width{
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 15px;
+}
+.img-container{
+    height: 100vh;
+    float: right;
+    margin-right: -30px;
+}
+
+.img-container img{
+    height: 100%;
+}
+
+.home .home-content{
+    position: absolute;
+    top: 40%;
+}
+
+.home .max-width-custom{
     margin: auto 0 auto 40px;
+    width: 100%;
 }
 
 .home .home-content .text-1{
