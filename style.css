@@ -80,16 +80,15 @@
 .container{
     width: 100%;
     padding: 0 15px;
-    margin: 0 15px;
 }
 .img-container{
     height: 100vh;
     float: right;
-    margin-right: -30px;
 }
 
 .img-container img{
     height: 100%;
+    margin-right: -15px;
 }
 
 .home .home-content{
