@@ -161,6 +161,11 @@
         margin: 20px 0;
         font-size: 25px;
     }
+    .menu-btn img {
+        position: absolute;
+        width: 2rem;
+        padding: 4px;
+    }
     .home .home-content{
         position: inherit;
     }
