@@ -19,18 +19,24 @@
     /* background: crimson; */
     font-family: 'Ubuntu', sans-serif;
     transition: all.3s ease;
-    z-index: 999;
+    z-index: 99999;
 }
 
 .navbar-custom.sticky{
     padding: 15px 0;
-    background: crimson;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
 
 .navbar-custom .max-width-custom{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
+}
+
+.max-width-custom ul{
+    align-items: center;
+    display: flex;
 }
 .navbar-custom .logo a{
     color: #fff;
@@ -78,10 +84,26 @@
     display: flex;
     height: 100vh;
     /* background: url("Images/Deep-removebg-preview.png") no-repeat center;   */
-    background: cornflowerblue;
+    /* background: cornflowerblue; */
+    background-color: #ffa69e;
+    background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+#section-container-about, #section-container-services,
+#section-container-skills, #section-container-teams,
+#section-container-contact{
+    height:100vh;
+    color: white;
+    background-color: rgb(100 42 0);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .container{
@@ -155,12 +177,20 @@
         position:fixed;
         height: 100vh;
         width: 100%;
-        left: 0;
+        left: -100%;
         top: 0;
         background: #111;
         z-index: 999;
         text-align: center;
         padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar-custom ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-custom .menu.active{
+        left: 0;
     }
     .navbar-custom .menu li{
         display: block;
@@ -176,9 +206,15 @@
         padding: 4px;
         margin-left: -1rem;
     }
-    .home .home-content{
-        position: inherit;
+    .hidden{
+        display: none;
     }
-
+    .active{
+        display: block;
+    }
+    .home .home-content{
+        bottom: 5% !important;
+        top: unset;
+    }
 
 }

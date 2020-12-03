@@ -6,4 +6,10 @@ $(document).ready(function(){
             $('.navbar-custom').removeClass("sticky");
         }
     });
+    // toggle menu/navbar
+    $('.menu-btn').click(function(){
+        $('.navbar-custom .menu').toggleClass("active");
+        $('.menu-btn .cross').toggleClass("active");
+        $('.menu-btn .bars').toggleClass("hidden");
+    });
 });
