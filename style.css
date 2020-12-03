@@ -163,9 +163,9 @@
 /* media query */
 
 @media(max-width:947px){
-    *{
+    /* *{
         overflow-y: hidden !important;
-    }
+    } */
     .max-width-custom{
         padding: 0 50px;
     }
