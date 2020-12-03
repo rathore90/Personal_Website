@@ -216,5 +216,8 @@
         bottom: 5% !important;
         top: unset;
     }
+    .img-container{
+        margin: 0 -5rem;
+    }
 
 }
