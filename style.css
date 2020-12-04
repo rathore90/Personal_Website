@@ -22,6 +22,10 @@
     z-index: 99999;
 }
 
+.navbar-custom .menu li a:hover {
+    color: crimson !important;
+}
+
 .navbar-custom.sticky{
     padding: 15px 0;
     background-color: #2d3436;
