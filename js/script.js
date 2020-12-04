@@ -12,4 +12,10 @@ $(document).ready(function(){
         $('.menu-btn .cross').toggleClass("active");
         $('.menu-btn .bars').toggleClass("hidden");
     });
+
+    $('.a-tag').click(function(){
+        $('.navbar-custom .menu').toggleClass("active");
+        $('.menu-btn .cross').toggleClass("active");
+        $('.menu-btn .bars').toggleClass("hidden");
+    });
 });

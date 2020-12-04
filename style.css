@@ -120,7 +120,7 @@
 
 .home .home-content{
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 5%;
     z-index: 999;
 }
@@ -163,9 +163,6 @@
 /* media query */
 
 @media(max-width:947px){
-    /* *{
-        overflow-y: hidden !important;
-    } */
     .max-width-custom{
         padding: 0 50px;
     }
@@ -216,8 +213,10 @@
         bottom: 5% !important;
         top: unset;
     }
-    .img-container{
-        margin: 0 -5rem;
-    }
+}
 
+@media(max-width:767px){
+    .img-container{
+        display: none;
+    }
 }
