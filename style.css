@@ -190,6 +190,7 @@ background: rgb(0,0,0,.5);
 .about{
 font-family: 'Poppins', sans-serif;
 padding:100px 0;
+overflow: hidden;
 }
 .about .about-content a{
 display: inline-block;
@@ -291,6 +292,7 @@ padding-right: 0;
 }
 .about .about-content .left img{
 width: 100%;
+height: 100%;
 }
 .about .about-content .right{
 width: 100%;
