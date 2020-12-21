@@ -279,6 +279,7 @@ section .title{
     font-size: 20px;
     color: crimson;
     background: #fff;
+    white-space: nowrap;
     transform: translateX(-50%);
     }
 
