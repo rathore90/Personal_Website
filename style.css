@@ -199,6 +199,10 @@ border: 2px solid crimson;
 transition: all .5s ease;
 }
 
+section#section-container-about {
+    height: max-content;
+}
+
 .about .about-content a:hover{
 color: #111;
 background: none;
