@@ -501,7 +501,7 @@ section .title{
     .max-width {
         padding-top: 0;
     }
-    .services, .about{
+    .services, .about, .skills{
         width: 100%;
         height: auto !important;
     }
