@@ -294,7 +294,6 @@ section .title{
     background: #111;
     color: #fff;
     padding: 100px 10%;
-    height: 100vh;
 }
 .services .title::before{
     background: #fff;
