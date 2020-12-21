@@ -610,7 +610,7 @@ section .title{
     .max-width {
         padding-top: 0;
     }
-    .services, .about, .skills, .contact, .contact .contact-content .column{
+    .services, .about, .skills, .contact, .contact .contact-content .column, .teams{
         width: 100%;
         height: auto !important;
     }
