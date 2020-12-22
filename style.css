@@ -6,6 +6,38 @@ box-sizing: border-box;
 text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+.fa, .fas{
+    color: white;
+}
+
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    z-index: 99999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
 footer{
  height: 20vh;
  background: crimson;
@@ -717,10 +749,9 @@ section .title{
     display: block;
 }
 .home .home-content{
-    bottom: 5% !important;
+    bottom: 35% !important;
     top: unset;
 }
-
 
 .home .home-content .text-1{
     font-size: 18px;    

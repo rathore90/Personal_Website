@@ -5,7 +5,21 @@ $(document).ready(function(){
         }else{
             $('.navbar-custom').removeClass("sticky");
         }
+        if(this.scrollY > 500){
+            $('.scroll-up-btn').addClass("show");
+        }else{
+            $('.scroll-up-btn').removeClass("show");
+        }
     });
+
+    //animation
+    var typed= new Typed(".typing", {
+        strings: ["software developer", "husband", "father", "freelencer", "web developer", "cook"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
     // toggle menu/navbar
     $('.menu-btn').click(function(){
         $('.navbar-custom .menu').toggleClass("active");
