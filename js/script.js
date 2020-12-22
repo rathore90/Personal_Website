@@ -20,6 +20,13 @@ $(document).ready(function(){
         loop: true
     });
 
+    var typed= new Typed(".typing2", {
+        strings: ["software developer", "husband", "father", "freelencer", "web developer", "cook"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
     // toggle menu/navbar
     $('.menu-btn').click(function(){
         $('.navbar-custom .menu').toggleClass("active");
