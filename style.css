@@ -16,9 +16,9 @@ padding: 0 80px;
 margin: auto;
 }
 
-.max-width {
+/* .max-width {
     padding-top: 6rem;
-}
+} */
 
 /* navbar styling */
 .navbar-custom{
@@ -184,7 +184,6 @@ background: rgb(0,0,0,.5);
     padding:100px 0;
     overflow: hidden;
     height: max-content;
-    min-height: 100vh;
 }
 /* about section */
 .about .about-content a{
@@ -619,7 +618,7 @@ section .title{
         width: 100%;
         height: auto !important;
     }
-    .about .about-content, .services .services-content{
+    .about .about-content, .services .services-content, .skills .skills-content{
         flex-direction: column;
     }
     .services .services-content .card{
@@ -627,12 +626,11 @@ section .title{
         margin-bottom: 2rem;
         min-height: max-content;
     }
-    .about .about-content .left{
+    .about .about-content .left, .skills .skills-content .left, .skills .skills-content .right{
         width: 100%;
         padding-right: 0;
     }
     .about .about-content .left img{
-        width: 100%;
         height: 100%;
     }
     .about .about-content .right{
