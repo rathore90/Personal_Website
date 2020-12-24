@@ -364,7 +364,6 @@ section .title{
 }
 .services .services-content .card .box{
     transition:  all 0.3s ease;
-    height: 55vh;
 }
 .services .services-content .card:hover{
     background: crimson;
@@ -478,14 +477,24 @@ section .title{
 }
 
 .teams .carousel .card{
-    background: #222;
+    min-height: 50vh;
+    background: #fff;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
     transition: all 0.3s ease;
 }
+.teams .carousel .card .box{
+    color: black
+}
+.teams .carousel .card .box a{
+    color: black;
+}
 .teams .carousel .card:hover{
-    background: crimson;
+    background: #77bfe2ba;
+}
+.teams .carousel .card:hover .box, .teams .carousel .card:hover .box a{
+    color: #fff;
 }
 
 .teams .carousel .card .box{
@@ -504,10 +513,10 @@ section .title{
 
 .teams .carousel .card img{
     height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid crimson;
+    width: 100%;
+    object-fit: contain;
+    /* border-radius: 50%; */
+    /* border: 5px solid crimson; */
     transition: all 0.3s ease;
 }
 
