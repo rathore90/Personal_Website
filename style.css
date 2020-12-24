@@ -13,6 +13,23 @@ html{
 .fa, .fas{
     color: white;
 }
+.icons2 i{
+    color: crimson;
+    margin-right: 5%;
+    font-size: 32px !important;
+    transition: all 0.3s ease;
+}
+.icons2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 5% 0;
+    justify-content: center;
+}
+.icons2:hover{
+    font-size: 36px;
+
+}
 
 .scroll-up-btn{
     position: fixed;
@@ -325,6 +342,7 @@ section .title{
     background: #111;
     color: #fff;
     padding: 100px 10%;
+    position: relative;
 }
 .services .title::before{
     background: #fff;
@@ -336,7 +354,7 @@ section .title{
 
 .services .services-content .card{
     width: calc(33% - 20px);
-    height: max-content;
+    height: 55vh;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -346,6 +364,7 @@ section .title{
 }
 .services .services-content .card .box{
     transition:  all 0.3s ease;
+    height: 55vh;
 }
 .services .services-content .card:hover{
     background: crimson;
@@ -641,6 +660,15 @@ section .title{
     background: none;
 }
 
+@media(min-width: 1024px) and (max-width: 1333px){
+    .services .services-content .card{
+        height: auto !important;    
+    }
+    .services .services-content .card .box{
+        height: 60vh;
+    }
+
+}
 /* media query */
 @media(max-width:1024px){
     .max-width {
@@ -656,7 +684,10 @@ section .title{
     .services .services-content .card{
         width: 100%;
         margin-bottom: 2rem;
-        min-height: max-content;
+        height: auto;
+    }
+    .services .services-content .card .box{
+        height: auto;
     }
     .about .about-content .left, .skills .skills-content .left, .skills .skills-content .right{
         width: 100%;
