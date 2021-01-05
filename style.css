@@ -365,6 +365,7 @@ section .title{
     display: flex;
     align-items: center;
     border-radius: .8rem;
+    margin-bottom: 1rem;
 }
 
 .blog-post__img{
@@ -396,7 +397,30 @@ section .title{
     border-radius: .8rem;
 }
 
+.project-content .blog-post .blog-post_info a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 32px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all .5s ease;
+}
+    
+.project-content .blog-post .blog-post_info a:hover{
+    color: #111;
+    background: none;
+}
 
+.project-icons i{
+    color: crimson;
+    margin: 5% 5% 0 0;
+    font-size: 32px !important;
+    transition: all 0.3s ease;
+}
 
 /* services section start */
 .services, .teams{
