@@ -479,6 +479,14 @@ section .title{
         min-width: 18rem;
     }
 }
+@media screen and (max-width: 537px){
+    .img-container{
+        display: none;
+    }
+    .home .home-content{
+        top: 65% !important;
+    }
+}
 @media screen and (max-width: 484px){
     .project-content{
         padding: 2rem 1rem;   
@@ -937,10 +945,6 @@ section .title{
 }
 .active{
     display: block;
-}
-.home .home-content{
-    bottom: 35% !important;
-    top: unset;
 }
 
 .home .home-content .text-1{
