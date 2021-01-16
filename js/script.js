@@ -14,7 +14,7 @@ $(document).ready(function(){
 
     //animation
     var typed= new Typed(".typing", {
-        strings: ["software developer", "husband", "father", "student", "freelencer", "web developer", "cook"],
+        strings: ["software developer", "husband", "father", "student", "freelancer", "web developer", "cook"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
