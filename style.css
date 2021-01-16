@@ -347,7 +347,7 @@ section .title{
 }
 .project .title::after{
     background: #2d3436;
-    content: "Curent Project";
+    content: "Resent Projects";
 }
 
 .project-content{
