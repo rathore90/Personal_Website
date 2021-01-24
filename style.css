@@ -128,17 +128,22 @@ transition: color 0.3s ease;
 }
 
 .navbar-custom .menu li a:hover{
-color: crimson;
+    color: crimson;
 }
 
 .navbar-custom.sticky .menu li a:hover{
-color: #fff;
+    color: #fff;
 }
+
 .menu-btn{
-color: #fff;
-font-size: 23px;
-cursor: pointer;
-display: none;
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu li.active a{
+    color: crimson;
 }
 
 /* Home section */
@@ -247,10 +252,6 @@ border-radius: 6px;
 border: 2px solid crimson;
 transition: all .5s ease;
 }
-
-/* section#section-container-about {
-    height: max-content;
-} */
 
 .about .about-content a:hover{
 color: #111;

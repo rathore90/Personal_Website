@@ -40,6 +40,11 @@ $(document).ready(function(){
         $('.menu-btn .bars').toggleClass("hidden");
     });
 
+    $('.menu li').click(function(){
+        $('.menu li').removeClass('active');
+      $(this).addClass('active');
+    })
+
 
     // owl carousel script
     $('.carousel').owlCarousel({
