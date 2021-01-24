@@ -449,7 +449,6 @@ section .title{
         transform: translate(0, -8rem);
     }
     .blog-post_info {
-        margin-top: 1rem;
         transform: translate(0, -3rem);
     }
 }
