@@ -437,10 +437,9 @@ section .title{
 @media screen and (max-width: 1132px){
     .blog-post{
         max-width: 80rem;
-        max-height: auto !important;
         flex-direction: column;
         margin-bottom: 4rem;
-        height: 30rem;
+        height: 32rem;
         padding: 1.5rem;
     }
     .blog-post__img{
@@ -459,7 +458,6 @@ section .title{
 }
 @media screen and (max-width: 868px){
     .blog-post{
-        min-height: 40rem;
         max-height: 40rem;
         height: auto;
         flex-direction: column;
