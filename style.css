@@ -999,3 +999,11 @@ section .title:after{
     transform: translateY(0);
   }
   
+  .card.flip-scroll{
+    transform: rotateY(90deg);
+
+  }
+  .card.flip-scroll.card-flip{
+    transform: rotateY(0deg);
+    transition: transform 1.5s ease-in-out !important;
+  }
