@@ -12,18 +12,14 @@ $(document).ready(function(){
         Array.prototype.forEach.call(elementsToShow, function(element){
         if (isElementInViewport(element)) {
         element.classList.add('is-visible');
-        } else {
-        element.classList.remove('is-visible');
-        }
+        } 
         });
 
         // flip on scroll
         Array.prototype.forEach.call(elementsToflip, function(element){
             if (isElementInViewport(element)) {
             element.classList.add('card-flip');
-            } else {
-            element.classList.remove('card-flip');
-            }
+            } 
         });
 
         scroll(loop);
