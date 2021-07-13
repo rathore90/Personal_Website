@@ -707,6 +707,9 @@ section .title:after{
     background: crimson !important;
 }
 
+.owl-stage{
+    transition: all 1000ms ease 0s !important;
+}
 /* Contact form */
 
 .contact .title:after{
