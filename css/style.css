@@ -344,6 +344,10 @@ section.product-grid a:hover, section.product-grid p:hover {
     color: #3d3d3d;
     font-weight: 200;
 }
+section.product-grid a, section.product-grid p {
+    color: #3d3d3d;
+    font-weight: 200;
+}
 .product-grid a.product-item {
     padding: 2rem 2.5rem 0 2.5rem;
     width: 100%;
