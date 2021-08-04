@@ -363,6 +363,20 @@ a {
     text-decoration: none;
     outline: 0;
 }
+.link-with-arrow:hover:after {
+    padding-left: 20px;
+    -webkit-transition: padding .6s ease-out;
+    transition: padding .6s ease-out;
+}
+.link-with-arrow:after {
+    content: "\2192";
+    padding-left: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+    -webkit-transition: padding .6s ease-out;
+    transition: padding .6s ease-out;
+    line-height: 1;
+}
 .project {
     background: #2d3436;
     color: #fff;
