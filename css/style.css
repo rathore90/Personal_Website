@@ -340,7 +340,7 @@ section .title:after{
     -webkit-box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
     box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
 }
-section.product-grid>div>div>div>a:hover, section.product-grid>div>div>div>a>p:hover {
+section.product-grid a:hover, section.product-grid p:hover {
     color: #3d3d3d;
     font-weight: 200;
 }
