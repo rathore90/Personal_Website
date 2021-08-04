@@ -17,6 +17,7 @@ html{
 .Pardeep-heading{
     font-size: 25px;
 }
+
 .icons2 i{
     color: crimson;
     margin-right: 5%;
@@ -77,6 +78,10 @@ footer{
     font-family: 'Ubuntu', sans-serif;
     transition: all.3s ease;
     z-index: 99999;
+}
+
+a:hover{
+    text-decoration: none !important;
 }
 
 .navbar-custom .menu li a:hover {
@@ -338,15 +343,16 @@ section .title:after{
 /* project */
 .product-grid .product-item:hover {
     border-radius: 16px;
+    background: #000000;
     -webkit-box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
     box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
 }
 section.product-grid a:hover, section.product-grid p:hover {
-    color: #3d3d3d;
+    color: #fff;
     font-weight: 200;
 }
 section.product-grid a, section.product-grid p {
-    color: #3d3d3d;
+    color: #fff;
     font-weight: 200;
 }
 .product-grid a.product-item {
@@ -355,15 +361,19 @@ section.product-grid a, section.product-grid p {
     height: 100%;
     display: inline-block;
 }
-a:hover {
-    color: #000;
+section.product-grid a:hover {
+    color: rgb(235, 67, 101);
     text-decoration: none;
     outline: 0;
 }
-.link-with-arrow:hover:after {
+ .product-item:hover .link-with-arrow:after{
     padding-left: 20px;
     -webkit-transition: padding .6s ease-out;
+    color: rgb(235, 67, 101);
     transition: padding .6s ease-out;
+}
+.product-item:hover .link-with-arrow {
+    color: rgb(235, 67, 101);
 }
 .link-with-arrow:after {
     content: "\2192";
@@ -377,6 +387,11 @@ a:hover {
 .project {
     background: #2d3436;
     color: #fff;
+    padding: 100px 10%;
+}
+
+.product-grid img{
+ object-fit: contain;
 }
 
 .project .title::before{
@@ -462,8 +477,8 @@ a:hover {
 
 .project-icons i{
     color: crimson;
-    margin: 5% 5% 0 0;
-    font-size: 32px !important;
+    margin: 0 5% 5% 0;
+    font-size: 24px !important;
     transition: all 0.3s ease;
 }
 @media screen and (max-width: 1550px){
