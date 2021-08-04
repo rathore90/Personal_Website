@@ -335,6 +335,11 @@ section .title:after{
     }
 
 /* project */
+.product-grid .product-item:hover {
+    border-radius: 16px;
+    -webkit-box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
+    box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
+}
 .project {
     background: #2d3436;
     color: #fff;
