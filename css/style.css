@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-a {
+a:hover {
     text-decoration: none;
     outline: 0;
 }
