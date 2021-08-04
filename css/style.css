@@ -6,6 +6,11 @@
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
 html{
     scroll-behavior: smooth;
 }
