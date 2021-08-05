@@ -1040,11 +1040,13 @@ section.product-grid a:hover {
         top:20%;
     }
     .product-grid .product-item {
-        margin-bottom: .625rem;
         border-radius: 16px;
         background: #000000;
         -webkit-box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
         box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
+    }
+    .project-card{
+        margin-bottom: .625rem;
     }
 }
 
