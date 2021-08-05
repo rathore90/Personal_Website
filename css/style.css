@@ -386,13 +386,13 @@ section.product-grid a:hover {
     line-height: 1;
 }
 .project-card:nth-child(1){
-   transition: transform .7s ease-in-out !important;
+   transition: transform .5s ease-in-out !important;
 }
 .project-card:nth-child(2){
-   transition: transform 1.4s ease-in-out !important;
+   transition: transform 1s ease-in-out !important;
 }
 .project-card:nth-child(3){
-   transition: transform 2.1s ease-in-out !important;
+   transition: transform 1.5s ease-in-out !important;
 }
 .project {
     background: #2d3436;
