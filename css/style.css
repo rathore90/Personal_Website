@@ -1032,12 +1032,18 @@ section.product-grid a:hover {
 
 @media(max-width:540px){
     .max-width-custom {
-    padding: 0 30px;
+        padding: 0 30px;
     }
-.img-container img {
-    position: relative;
-    height: 80%;
-    top:20%;
+    .img-container img {
+        position: relative;
+        height: 80%;
+        top:20%;
+    }
+    .product-grid .product-item {
+        border-radius: 16px;
+        background: #000000;
+        -webkit-box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
+        box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
     }
 }
 
