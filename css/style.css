@@ -341,7 +341,7 @@ section .title:after{
     }
 
 /* project */
-.product-grid .product-item:hover {
+.product-grid .project-card:hover {
     border-radius: 16px;
     background: #000000;
     -webkit-box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
