@@ -347,14 +347,17 @@ section .title:after{
     -webkit-box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
     box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
 }
+
 section.product-grid a:hover, section.product-grid p:hover {
     color: #fff;
     font-weight: 200;
 }
+
 section.product-grid a, section.product-grid p {
     color: #fff;
     font-weight: 200;
 }
+
 .product-grid a.product-item {
     padding: 1.5rem;
     width: 100%;
@@ -362,20 +365,24 @@ section.product-grid a, section.product-grid p {
     display: inline-block;
     transition: all 0.3s ease;
 }
+
 section.product-grid a:hover {
     color: rgb(235, 67, 101);
     text-decoration: none;
     outline: 0;
 }
- .product-item:hover .link-with-arrow:after{
+
+.product-item:hover .link-with-arrow:after{
     padding-left: 20px;
     -webkit-transition: padding .6s ease-out;
     color: rgb(235, 67, 101);
     transition: padding .6s ease-out;
 }
+
 .product-item:hover .link-with-arrow {
     color: rgb(235, 67, 101);
 }
+
 .link-with-arrow:after {
     content: "\2192";
     padding-left: 10px;
@@ -385,15 +392,24 @@ section.product-grid a:hover {
     transition: padding .6s ease-out;
     line-height: 1;
 }
+
 .project-card:nth-child(1){
    transition: transform .5s ease-in-out !important;
 }
+
 .project-card:nth-child(2){
    transition: transform .8s ease-in-out !important;
 }
+
 .project-card:nth-child(3){
    transition: transform 1s ease-in-out !important;
 }
+
+.demo-container{
+    display: flex;
+    justify-content: space-between;
+}
+
 .project {
     background: #2d3436;
     color: #fff;
