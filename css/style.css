@@ -367,7 +367,7 @@ section.product-grid a, section.product-grid p {
     transition: all 0.3s ease;
 }
 
-section.product-grid a:hover {
+.project-card:hover a {
     color: rgb(235, 67, 101);
     text-decoration: none;
     outline: 0;
