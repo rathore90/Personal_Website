@@ -380,6 +380,8 @@ section.product-grid a, section.product-grid p {
     transition: padding .6s ease-out;
 }
 
+.project-card:hover a.product-item{ color: rgb(235, 67, 101); }
+
 .link-with-arrow:after {
     content: "\2192";
     padding-left: 10px;
