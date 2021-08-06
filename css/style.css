@@ -102,6 +102,7 @@ a:hover{
 .max-width-custom ul{
     align-items: center;
     display: flex;
+    margin-bottom: 0;
 }
 .navbar-custom .logo a{
     color: #fff;
