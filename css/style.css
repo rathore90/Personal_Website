@@ -1081,7 +1081,7 @@ section.product-grid a, section.product-grid p {
         height: 80%;
         top:20%;
     }
-    .product-grid .product-item {
+    .product-grid .project-card {
         border-radius: 16px;
         background: #000000;
         -webkit-box-shadow: 3px 3px 12px 0 rgb(0 0 0 / 33%);
@@ -1094,7 +1094,7 @@ section.product-grid a, section.product-grid p {
 
 @media(max-width:320px){
     .img-container img {
-    display: none;
+        display: none;
     }
 }
 
