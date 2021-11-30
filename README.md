@@ -1,3 +1,3 @@
 # Personal_Website
 
-https://pardeeprathore.me/
+https://pardeeprathore.netlify.app/
